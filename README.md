@@ -1,2 +1,2 @@
-# banco_de_dados_mysql
+# Banco de dados MySQL
 Arquivos de configuração e manipulação de dados usando MySQL.
