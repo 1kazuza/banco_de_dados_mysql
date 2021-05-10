@@ -1,7 +1,7 @@
 '''
 Código para o envio de dados de um arquivo csv para uma tabela de um banco de dados MySQL.
 Substitua os termos entre aspas, na variável conectar, pelos seus dados de configuração.
-Para funcionar é necessário que exista uma tabela criada anteriormente no banco de dados.
+Para funcionar, é necessário que exista uma tabela criada anteriormente no banco de dados.
 Essa tabela pode ter quantas colunas forem necessárias. Porém, na variável tabela, aumente
 o número de colunas e valores, se necessário.
 '''
