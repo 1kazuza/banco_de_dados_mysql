@@ -1,22 +1,15 @@
-'''
-Código para a criação de tabelas em um banco de dados MySQL.
-Substitua os termos entre aspas, na variável conectar, pelos seus dados de configuração. 
-'''
-
 import mysql.connector as mysql
 from mysql.connector import Error
 
 try: 
-    conectar = mysql.connect(host="server_name", database="database_name", user="user_name", 
-password="password")   
+    conectar = mysql.connect(host="localhost", database="elo", user="root", password="Hdt24p5t@")   
     if conectar.is_connected():    
-        indicador = conectar.cursor(buffered=True)
-        indicador.execute("SELECT DATABASE()")    
-        print("Conectado ao banco de dados!")        
-        indicador.execute("CREATE TABLE table_name(column_name1 varchar(50) not null, column_name2 int not null)")
-        print("A tabela foi criada com sucesso!")        
+        print("Conectado ao banco de dados!") 
+        indicador = conectar.cursor(buffered=True)               
+        indicador.execute("CREATE TABLE Season_2019(Clubs varchar(60) not null,GFt int not null,GAt int not null,Mt int not null,GFh int not null,GAh int not null,Mh int not null,GFa int not null,GAa int not null,Ma int not null,Serie varchar(20))")         
         indicador.close()          
         conectar.close()       
+        print("A tabela foi criada com sucesso!")      
 
 except Error as erro:
     print("Não foi possível efetuar a criação da tabela. {}".format(erro))
