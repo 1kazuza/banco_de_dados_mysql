@@ -1,4 +1,4 @@
-# MySQL DataBase and Python
+# MySQL Database and Python
 MySQL configuration files and data management.<br>  
 All code are written in Python and SQL.
 
