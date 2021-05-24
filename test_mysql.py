@@ -6,7 +6,7 @@ import mysql.connector as mysql
 from mysql.connector import Error
 import os
 
-conectar = mysql.connect(host="localhost", database="Brazil", user="root", password="Hdt24p5t@")
+conectar = mysql.connect(host=" ", database=" ", user=" ", password=" ")
 indicador = conectar.cursor()
 season_2019 = "SELECT Clubs, CONCAT(ROUND(((GFt/(GFt+GAt))*100),2),'%'), CONCAT(ROUND((GFt/Mt),2)) FROM Season_2019"
 season_2020 = "SELECT Clubs, CONCAT(ROUND(((GFt/(GFt+GAt))*100),2),'%'), CONCAT(ROUND((GFt/Mt),2)) FROM Season_2020"
