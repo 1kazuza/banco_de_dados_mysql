@@ -1,5 +1,5 @@
 # MySQL Database and Python
-MySQL configuration files and data management.<br>  
+MySQL configuration files and data management.<br>
 All code are written in Python and SQL.<br>
 
 # Banco de dados MySQL e Python
