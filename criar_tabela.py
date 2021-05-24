@@ -2,7 +2,7 @@ import mysql.connector as mysql
 from mysql.connector import Error
 
 try: 
-    conectar = mysql.connect(host="localhost", database="elo", user="root", password="Hdt24p5t@")   
+    conectar = mysql.connect(host=" ", database=" ", user=" ", password=" ")   
     if conectar.is_connected():    
         print("Conectado ao banco de dados!") 
         indicador = conectar.cursor(buffered=True)               
