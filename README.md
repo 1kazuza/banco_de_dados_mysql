@@ -1,6 +1,6 @@
 # MySQL Database and Python
 MySQL configuration files and data management.<br>
-All code are written in Python and SQL.<br>
+All codes are written in Python and SQL.<br>
 
 # Banco de dados MySQL e Python
 Arquivos de configuração e manipulação de dados usando MySQL.<br>
